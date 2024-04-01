@@ -47,3 +47,16 @@ Atualmente temos a OWASP SAMM (OWASP Software Assurance Maturity Model), um proj
 Com base nos "sim" e "não" das respostas conseguimos ter uma ideia do nível de maturidade do processo, se o "não" for maioria, é importante que o assunto seja levado para discussão. 
 
 ### Shift Left 
+
+
+Shift Left em segurança de aplicações é uma abordagem estratégica que envolve a integração de práticas de segurança desde as fases iniciais do ciclo de vida de desenvolvimento de software (SDLC), em oposição à abordagem tradicional de tratamento de segurança apenas em estágios avançados ou pós-desenvolvimento. O conceito é inspirado no termo "shift left" utilizado em metodologias ágeis, onde a ideia é antecipar e abordar problemas o mais cedo possível no processo de desenvolvimento.
+
+Na prática, isso significa considerar aspectos de segurança desde o início do projeto, durante o planejamento e o design, e continua a integrar práticas de segurança em cada etapa do desenvolvimento, incluindo implementação, testes e implantação.
+
+Por exemplo, em vez de realizar testes de segurança apenas no final do processo de desenvolvimento, a equipe pode incorporar testes de segurança automatizados ao fluxo de trabalho de integração contínua. Isso permite que problemas de segurança sejam identificados e corrigidos rapidamente, antes que o código seja mesclado ao repositório principal.
+
+Outro exemplo seria a utilização de ferramentas de análise estática de código (SAST) para identificar vulnerabilidades de segurança durante a fase de codificação. Ao analisar o código-fonte em busca de padrões conhecidos de vulnerabilidades, os desenvolvedores podem corrigir esses problemas antes mesmo que o código seja submetido ao controle de versão.
+
+Além disso, a adoção de revisões de código com foco em segurança, onde os membros da equipe revisam o código uns dos outros em busca de possíveis vulnerabilidades, é uma prática comum no contexto de shift left. Essas revisões ajudam a promover uma cultura de segurança dentro da equipe de desenvolvimento e aumentam a conscientização sobre questões de segurança.
+
+Em resumo, o shift left em segurança de aplicações se concentra em antecipar e abordar preocupações de segurança desde as fases iniciais do desenvolvimento de software, incorporando práticas de segurança em todo o SDLC. Isso resulta em software mais seguro, reduzindo custos e riscos associados à correção de vulnerabilidades descobertas tardiamente no processo de desenvolvimento.
